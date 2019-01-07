@@ -336,6 +336,7 @@ nav {
 		button:hover,
 		.button:hover {
             color: #83CEF3;
+            background-color: transparent;
 		}
 
 		input[type="submit"]:active,
