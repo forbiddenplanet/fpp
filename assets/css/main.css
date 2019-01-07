@@ -12,10 +12,12 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+        scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
 		display: block;
+        scroll-behavior: smooth;
 	}
 
 nav {
@@ -375,7 +377,7 @@ nav {
 			input[type="button"].alt.icon:before,
 			button.alt.icon:before,
 			.button.alt.icon:before {
-				color: #bbb;
+				color: transparent;
 			}
 
 		input[type="submit"].special,
