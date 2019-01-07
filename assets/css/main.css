@@ -327,7 +327,7 @@ nav {
 	.button {
 		color: #00A4D6;
         font-family: "Futura";
-        background-color: transparent;
+        background-color: #fff;
         
 	}
 
@@ -386,8 +386,7 @@ nav {
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #00ffff
-                \;
+			background-color: #00ffff;
 			color: #ffffff !important;
 		}
 
