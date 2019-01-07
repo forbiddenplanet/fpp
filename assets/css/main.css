@@ -217,6 +217,193 @@ nav {
 
 	}
 
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+        font-family: "Futura;"
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 4px;
+		border: 1rem;
+        border-color: aqua;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 2.85rem;
+		line-height: 2.95rem;
+		padding: 0 1.5rem;
+		text-align: center;
+		text-decoration: none;
+		text-transform: none;
+		white-space: nowrap;
+	}
+
+		input[type="submit"].icon,
+		input[type="reset"].icon,
+		input[type="button"].icon,
+		button.icon,
+		.button.icon {
+			padding-left: 1.35rem;
+		}
+
+			input[type="submit"].icon:before,
+			input[type="reset"].icon:before,
+			input[type="button"].icon:before,
+			button.icon:before,
+			.button.icon:before {
+				margin-right: 0.5rem;
+			}
+
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		input[type="button"].fit,
+		button.fit,
+		.button.fit {
+			display: block;
+			margin: 0 0 1rem 0;
+			width: 100%;
+		}
+
+		input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		button.small,
+		.button.small {
+			font-size: 0.8rem;
+		}
+
+		input[type="submit"].big,
+		input[type="reset"].big,
+		input[type="button"].big,
+		button.big,
+		.button.big {
+			font-size: 1.35rem;
+		}
+
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		button.disabled,
+		button:disabled,
+		.button.disabled,
+		.button:disabled {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			opacity: 0.25;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				padding: 0;
+				width: 100%;
+			}
+
+		}
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		color: #00A4D6;
+        font-family: "Futura";
+        
+	}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.button:hover {
+            color: #83CEF3;
+		}
+
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		input[type="button"]:active,
+		button:active,
+		.button:active {
+		}
+
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		button.alt,
+		.button.alt {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+			color: #000fff !important;
+		}
+
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			input[type="button"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background-color: rgba(144, 144, 144, 0.075);
+			}
+
+			input[type="submit"].alt:active,
+			input[type="reset"].alt:active,
+			input[type="button"].alt:active,
+			button.alt:active,
+			.button.alt:active {
+				background-color: rgba(144, 144, 144, 0.2);
+			}
+
+			input[type="submit"].alt.icon:before,
+			input[type="reset"].alt.icon:before,
+			input[type="button"].alt.icon:before,
+			button.alt.icon:before,
+			.button.alt.icon:before {
+				color: #bbb;
+			}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special {
+			background-color: #00ffff
+                \;
+			color: #ffffff !important;
+		}
+
+			input[type="submit"].special:hover,
+			input[type="reset"].special:hover,
+			input[type="button"].special:hover,
+			button.special:hover,
+			.button.special:hover {
+				background-color: #00ffff;
+			}
+
+			input[type="submit"].special:active,
+			input[type="reset"].special:active,
+			input[type="button"].special:active,
+			button.special:active,
+			.button.special:active {
+				background-color: #00A4D6;
+			}
+
 /* Grid */
 
 	.row {
@@ -1649,6 +1836,7 @@ nav {
 
 		a:hover {
 			text-decoration: none;
+            
 		}
 
 	strong, b {
@@ -1690,7 +1878,7 @@ nav {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		\
+		font-family: "Marcellus"
 		margin: 0 0 1rem 0;
 	}
 
@@ -1708,7 +1896,9 @@ nav {
 	}
 
 	h4 {
-		font-size: 1.1rem;
+		font-size: 1.5rem;
+        font-family: "Marcellus";
+            padding: 2rem;
 	}
 
 	h5 {
@@ -1787,9 +1977,6 @@ nav {
 		color: #000;
 	}
 
-	a {
-		color: #00A4D6;
-	}
 
 	strong, b {
 		color: #000;
@@ -1878,194 +2065,6 @@ nav {
 	.box {
 		border-color: rgba(144, 144, 144, 0.25);
 	}
-
-/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 4px;
-		border: 1rem;
-        border-color: aqua;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 300;
-		height: 2.85rem;
-		line-height: 2.95rem;
-		padding: 0 1.5rem;
-		text-align: center;
-		text-decoration: none;
-		text-transform: none;
-		white-space: nowrap;
-	}
-
-		input[type="submit"].icon,
-		input[type="reset"].icon,
-		input[type="button"].icon,
-		button.icon,
-		.button.icon {
-			padding-left: 1.35rem;
-		}
-
-			input[type="submit"].icon:before,
-			input[type="reset"].icon:before,
-			input[type="button"].icon:before,
-			button.icon:before,
-			.button.icon:before {
-				margin-right: 0.5rem;
-			}
-
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		button.fit,
-		.button.fit {
-			display: block;
-			margin: 0 0 1rem 0;
-			width: 100%;
-		}
-
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		button.small,
-		.button.small {
-			font-size: 0.8rem;
-		}
-
-		input[type="submit"].big,
-		input[type="reset"].big,
-		input[type="button"].big,
-		button.big,
-		.button.big {
-			font-size: 1.35rem;
-		}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			opacity: 0.25;
-		}
-
-		@media screen and (max-width: 480px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
-				width: 100%;
-			}
-
-		}
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		background-color: transparent;
-		color: #000 !important;
-        
-	}
-
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #fff;
-            border-width: thick;
-		}
-
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
-		button:active,
-		.button:active {
-			background-color: #fff;
-		}
-
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		button.alt,
-		.button.alt {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-			color: #000000 !important;
-		}
-
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background-color: rgba(144, 144, 144, 0.075);
-			}
-
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			input[type="button"].alt:active,
-			button.alt:active,
-			.button.alt:active {
-				background-color: rgba(144, 144, 144, 0.2);
-			}
-
-			input[type="submit"].alt.icon:before,
-			input[type="reset"].alt.icon:before,
-			input[type="button"].alt.icon:before,
-			button.alt.icon:before,
-			.button.alt.icon:before {
-				color: #bbb;
-			}
-
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			background-color: #00ffff
-                \;
-			color: #ffffff !important;
-		}
-
-			input[type="submit"].special:hover,
-			input[type="reset"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
-				background-color: #00ffff;
-			}
-
-			input[type="submit"].special:active,
-			input[type="reset"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
-				background-color: #00A4D6;
-			}
 
 /* Form */
 
@@ -2915,7 +2914,7 @@ nav {
 		}
 
 			 a:hover {
-				color: #FFF;
+				color: #83CEF3;
 			}
 
 /* Header */
@@ -2924,6 +2923,7 @@ nav {
         background-color: #000000;
         background-image: url(../../images/earth2.png);
 		padding-top: 0;
+       
 	}
 
 		body.is-loading:after {
@@ -3034,7 +3034,7 @@ nav {
 /* Main */
 
 	#main > .inner {
-		margin: 0 auto;
+		margin: auto;
 		width: 80rem;
 		max-width: 90%;
 		background: #fff;
@@ -3058,24 +3058,17 @@ nav {
 			}
 
 	}
-#main a {
-			color: #000;
-		}
-
-			#main a:hover {
-				color: #FFF;
-			}
 
 	.wrapper > header {
 		text-align: center;
 		background: #FFF;
-		padding: 2rem;
+		padding: 2rem 2rem 0 2rem;
 		
 	}
 
 		.wrapper > header h2 {
 			position: relative;
-			padding-bottom: 0rem;
+			padding-bottom: 0;
 		}
 
 			}
@@ -3087,7 +3080,7 @@ nav {
 		}
 
 		.wrapper > header.special {
-			padding: 4rem 2rem;
+			padding: 4rem 2rem 0 2rem;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3106,6 +3099,7 @@ nav {
 
 				.wrapper > header h2 {
 					font-size: 1.5rem;
+                   
 				}
 
 					.wrapper > header h2:after {
@@ -3115,7 +3109,7 @@ nav {
 		}
 
 	.wrapper.style1 .content {
-		padding: 0rem 6rem 6rem 6rem;
+		padding: 6rem 6rem 6rem 6rem;
         font-family: "Futura";
         margin-bottom: 0rem;
         background: #fff;
@@ -3127,6 +3121,8 @@ nav {
 			.wrapper.style1 .content {
 				padding: 4rem;
 			}
+            
+            
 
 		}
 
@@ -3197,15 +3193,8 @@ nav {
         color: #000;
 	}
 
-	}
-
-		#footer a {
-			color: #000;
-		}
-
-			#footer a:hover {
-				color: #FFF;
-			}
+	
+			
 #footer ul {
 			color: #000;
     
