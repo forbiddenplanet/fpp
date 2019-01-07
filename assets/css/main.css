@@ -2286,23 +2286,23 @@ nav {
 	}
 
 	::-webkit-input-placeholder {
-		color: #bbb !important;
+		color: #fff000 !important;
 	}
 
 	:-moz-placeholder {
-		color: #bbb !important;
+		color: #fff000 !important;
 	}
 
 	::-moz-placeholder {
-		color: #bbb !important;
+		color: #fff000 !important;
 	}
 
 	:-ms-input-placeholder {
-		color: #bbb !important;
+		color: #fff000 !important;
 	}
 
 	.formerize-placeholder {
-		color: #bbb !important;
+		color: #fff000 !important;
 	}
 
 /* Gallery */
