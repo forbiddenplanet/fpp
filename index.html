@@ -15,7 +15,7 @@
 			<header id="header">
                 <div class="logo"><p>FORBIDDEN PLANET</p><p>PRODUCTIONS</p> 
                     </div>
-                <a href=#one>Explore</a>
+                <a class="special" href=#one>Explore</a>
                 
                 <!--scrolling shit-->
                 
@@ -23,7 +23,7 @@
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("a.special").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "one") {
