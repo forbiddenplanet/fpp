@@ -2949,6 +2949,14 @@ a.special {
 				color: #83CEF3;
 			}
 
+a.special {
+			color: #00A4D6;
+		}
+
+			 a.special:hover {
+				color: #83CEF3;
+			}
+
 /* Header */
 
 	body {
