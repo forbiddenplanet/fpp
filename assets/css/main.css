@@ -2932,14 +2932,10 @@ nav {
 /*LINKS*/
  a {
 			color: #00A4D6;
-     position: relative;
-        z-index: 1;
 		}
 
 			 a:hover {
 				color: #83CEF3;
-                 position: relative;
-        z-index: 1;
 			}
 
 /* Header */
