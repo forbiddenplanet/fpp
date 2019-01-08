@@ -2698,6 +2698,24 @@ nav {
 				width: 100%;
 			}
 
+/*board spotlights*/
+
+.spotlight .innerboard {
+			padding: 6rem 6rem 6rem 3rem;
+		}
+
+.spotlight .board {
+			margin: 0;
+		}
+
+			.spotlight .board img {
+				width: 100%;
+                padding: 6rem 3rem 6rem 6rem;
+                /*border-width: 10rem;
+                border-color: #000fff;
+                border-style: solid;*/
+			}
+
 		.spotlight.alt {
 			background: #fff;
 			color: #000;
@@ -3021,6 +3039,64 @@ nav {
 		}
 
 			#header > .logo a {
+				font-size: 3rem;
+			}
+
+	}
+
+/*alt header for other pages*/
+
+#header2 {
+		color: #000;
+		cursor: default;
+		position: relative;
+		text-align: center;
+		z-index: 10001;
+	}
+
+		#header2 > .logo {
+			font-size: 4rem;
+				font-weight: 700;
+				color: #FFF;
+				text-decoration: none;
+				line-height: 4rem;
+            margin: 4rem 0 20rem 0;
+			padding: 0;
+		}
+
+			#header2 > .logo a {
+				font-size: 4rem;
+				font-weight: 700;
+				color: #FFF;
+				text-decoration: none;
+				line-height: 4rem;
+			}
+
+			#header2 > .logo span {
+				font-weight: 300;
+				font-size: 1rem;
+				display: block;
+				color: #fff;
+			}
+
+	@media screen and (max-width: 1280px) {
+
+		body {
+			padding-top: 6rem;
+			background-attachment: fixed;
+			background-size: auto;
+			background-position: top;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#header2 > .logo {
+			margin: 0 0 2rem 0;
+		}
+
+			#header2 > .logo a {
 				font-size: 3rem;
 			}
 
