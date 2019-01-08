@@ -1841,6 +1841,17 @@ nav {
             
 		}
 
+a.special {
+		text-decoration: none;
+        font-family: "Futura";
+	}
+
+		a.special:hover {
+			text-decoration: none;
+            
+		}
+
+
 	strong, b {
 		font-weight: 600;
 	}
