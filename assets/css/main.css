@@ -3257,9 +3257,9 @@ a.special {
 /* Footer */
 
 	#footer {
-		margin: 2rem auto;
+		margin:0 auto;
 		text-align: center;
-		padding: auto;
+		padding: 2rem 2rem 2rem 2rem;
 		width: 80rem;
 		max-width: 90%;
 		background: transparent;
