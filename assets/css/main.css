@@ -2958,10 +2958,10 @@ a.special {
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			/*-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			transition: opacity 1.5s ease-in-out, visibility 1.5s;*/
 			content: '';
 			background-image: url(../../images/earth2.png);
 			background-attachment: fixed;
